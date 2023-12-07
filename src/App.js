@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1>Counter {counter}</h1>
+      {/* git new change */}
       <button onClick={() => dispatch(increment(5))}>+</button>
       <button onClick={() => dispatch(decrement(5))}>-</button>
       {isLogged ? <h3>Information i shouldnt see</h3> : ''}
